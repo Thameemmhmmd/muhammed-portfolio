@@ -360,13 +360,13 @@ export default function Portfolio() {
       {!isLoaded && (
         <div className="fixed inset-0 bg-black z-[9998] flex items-center justify-center">
           <div className="text-center">
-            <div className="text-6xl font-mono text-cyan-400 animate-pulse mb-8">{"<NEXUS/>"}</div>
-            <div className="text-2xl font-mono text-purple-400 mb-4">Initializing Quantum Systems...</div>
+            {/* <div className="text-6xl font-mono text-cyan-400 animate-pulse mb-8">{"<NEXUS/>"}</div> */}
+            <div className="text-2xl font-mono text-purple-400 mb-4">Initializing  Systems...</div>
             <div className="w-64 h-1 bg-gray-800 rounded-full overflow-hidden">
               <div className="h-full bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full animate-loading-bar" />
             </div>
             <div className="text-sm text-gray-400 mt-4 animate-pulse">
-              Loading Neural Networks • Compiling Shaders • Establishing Connections
+              Loading Networks • Compiling Shaders • Establishing Connections
             </div>
           </div>
         </div>
